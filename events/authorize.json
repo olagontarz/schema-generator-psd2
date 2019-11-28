@@ -1,0 +1,50 @@
+{   
+    "isCompanyContext": {
+        "type": "string"
+    },
+
+    "psuIdentifier": {
+        "type": "string"
+    },
+
+    "psuContextIdentifier": {
+        "type": "string"
+    },
+
+    "clientId": {
+        "type": "string"
+    },
+
+    "redirectUri": {
+        "type": "string"
+    },
+
+    "consentId": {
+        "type": "string"
+    },
+
+    "scopePrivileges": {
+        "type": "string"
+    },
+
+    "scopeTimeLimit": {
+        "type": "string",
+        "format": "date-time"
+    },
+
+    "state": {
+        "type": "string"
+    },
+
+    "responseStatusCode": {
+        "type": "string"
+    },
+
+    "responseErrorMsg": {
+        "type": "string"
+    },
+
+    "aspspRedirectUri": {
+        "type": "string"
+    }
+}

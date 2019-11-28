@@ -1,0 +1,37 @@
+{
+    "requestId": {
+        "type": "string"
+    },
+
+    "logType": {
+        "type": "string",
+        "enum": ["INFO", "ERROR"]
+    },
+
+    "authorization": {
+        "type": "string"
+    },
+
+    "sendDate": {
+        "type": "string",
+        "format": "date-time"
+    },
+    
+    "tppId": {
+        "type": "string"
+    },
+
+    "channel": {
+        "type": "string",
+        "enum": ["PSD2"]
+    },
+     
+    "ipAddress": {
+        "type": "string",
+        "format": "ipv4"
+    },
+
+    "userAgent": {
+        "type": "string"
+    }
+}

@@ -1,0 +1,54 @@
+{   
+    "isCompanyContext": {
+        "type": "string"
+    },
+
+    "psuIdentifier": {
+        "type": "string"
+    },
+
+    "psuContextIdentifier": {
+        "type": "string"
+    },
+
+    "callbackUrl": {
+        "type": "string"
+    },
+
+    "apiKey": {
+        "type": "string"
+    },
+
+    "clientId": {
+        "type": "string"
+    },
+
+    "eatCode": {
+        "type": "string"
+    },
+
+    "consentId": {
+        "type": "string"
+    },
+
+    "scopePrivileges": {
+        "type": "string"
+    },
+
+    "scopeTimeLimit": {
+        "type": "string",
+        "format": "date-time"
+    },
+
+    "state": {
+        "type": "string"
+    },
+
+    "responseStatusCode": {
+        "type": "string"
+    },
+
+    "responseErrorMsg": {
+        "type": "string"
+    }
+}
